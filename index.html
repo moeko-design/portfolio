@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio/Kotori Moeko</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <!-- OGP 基本 -->
+    <meta property="og:title" content="Portfolio/Kotori Moeko" />
+    <meta property="og:description" content="WebデザイナーKotori Moekoのポートフォリオサイトです" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://moeko-design.github.io/portfolio/ " />
+    <meta property="og:image" content="https://moeko-design.github.io/portfolio/assets/images/ogp.png" />
+    <meta property="og:site_name" content="Portfolio/Kotori Moeko" />
+    <!--favicon-->
+    <link rel="icon" href="assets/images/favicon.ico" id="favicon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon180x180.png">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400&family=Noto+Sans+JP:wght@100;200;400&display=swap" rel="stylesheet">    
 </head>
 <body>
-  <h1>Hello Portfolio!</h1>
+    <header class="header">
+        <div class="header__logo">
+            <a href="#fv"><strong>Portfolio</strong><span>/</span>KM</a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="#fv">Top</a></li>
+                <li class="header__item"><a href="#works">Works</a></li>
+                <li class="header__item"><a href="#about">About</a></li>
+                <li><a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram"></a></li>
+                <!--<li class="header__item"><a href="#">Contact</a></li>-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="fv" class="fv">
+            <div class="round-wrap">
+                <div class="round"></div>
+            </div>
+            <div class="line_round-wrap">
+                <div class="line_round"></div>
+            </div>
+            <div class="fv__inner">
+                <div class="fv__title js-fv-title">
+                    <h2 class="js-fv-item">Web Designer</h2>
+                    <h1 class="js-fv-item"><strong>Portfolio</strong><span>/</span><br class="sp_br">Kotori Moeko</h1>
+                    <p class="js-fv-item">やわらかく、ていねいなデザイン</p>
+                </div>
+            </div>
+        </section>
+        <section id="works" class="works">
+            <div class="works__inner fade-in">
+                <h2 class="top_heading fade-in">Works</h2>
+                <ul class="works__list">
+                    <li class="works__item">
+                        <a href="#" class="works__imgwrap">
+                            <img src="assets/images/works_1.jpg" alt="HARU KOMUTEN">
+                        </a>
+                        <ul class="works__tab_list">
+                            <li class="works__tab_item">Web Design</li>
+                        </ul>
+                    </li>
+                    <li class="works__item">
+                        <a href="#" class="works__imgwrap">
+                            <img src="assets/images/works_2.jpg" alt="VOID">
+                        </a>
+                        <ul class="works__tab_list">
+                            <li class="works__tab_item">Web Design</li>
+                        </ul>
+                    </li>
+                    <li class="works__item">
+                        <a href="#" class="works__imgwrap">
+                            <img src="assets/images/works_3.jpg" alt="夜更かし絵本店">
+                        </a>
+                        <ul class="works__tab_list">
+                            <li class="works__tab_item">Web Design</li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--<a href="#" class="btn  fade-in">View More<span class="btn_arrow"></span></a>-->
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2 class="top_heading fade-in">About</h2>
+            <div class="about__inner fade-in">
+                <img src="assets/images/about_top.png" alt="プロフィールイメージ"  class="about__img">
+                <div>
+                    <div class="about__name">
+                        <h3>Kotori Moeko</h3>
+                        <a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram" class="about__snsicon"></a>
+                    </div>
+                    <p>大阪在住</p>
+                    <p>グラフィックからWebデザイナーへ転職</p>
+                    <p>現在はWeb制作会社に勤務</p>
+                    <p><span>Web・広告・パッケージ・ロゴ・イラスト</span></p>
+                    <!--<a href="#" class="btn about__btn  fade-in">View More<span class="btn_arrow"></span></a>-->
+                </div>
+            </div>
+        </section>
+        <!--<section id="contact" class="contact">
+            <a class="contact__btn">Contact</a>
+        </section>-->
+    </main>
+    <footer class="footer">
+        <div class="footer__inner fade-in">
+            <div class="footer__logo">
+                <a href="#fv"><strong>Portfolio</strong><span>/</span>Kotori Moeko</a>
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#fv">Top</a></li>
+                    <li class="footer__item"><a href="#works">Works</a></li>
+                    <li class="footer__item"><a href="#about">About</a></li>
+                     <li><a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram"></a></li>
+                    <!--<li class="footer__item"><a href="#">Contact</a></li>-->
+                </ul>
+            </nav>
+        </div>
+        <div class="copyright">&copy;2025 Kotori Moeko. Portfolio</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
