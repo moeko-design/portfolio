@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio/Kotori Moeko</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/common.min.css">
     <!-- OGP 基本 -->
     <meta property="og:title" content="Portfolio/Kotori Moeko" />
     <meta property="og:description" content="WebデザイナーKotori Moekoのポートフォリオサイトです" />
@@ -19,7 +19,8 @@
     <!--Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400&family=Noto+Sans+JP:wght@100;200;400&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="header">
@@ -31,7 +32,7 @@
                 <li class="header__item"><a href="#fv">Top</a></li>
                 <li class="header__item"><a href="#works">Works</a></li>
                 <li class="header__item"><a href="#about">About</a></li>
-                <li><a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram"></a></li>
+                <li><a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram" loading="lazy"></a></li>
                 <!--<li class="header__item"><a href="#">Contact</a></li>-->
             </ul>
         </nav>
@@ -58,7 +59,7 @@
                 <ul class="works__list">
                     <li class="works__item">
                         <a href="#" class="works__imgwrap">
-                            <img src="assets/images/works_1.jpg" alt="HARU KOMUTEN">
+                            <img src="assets/images/works_1.webp" alt="HARU KOMUTEN" loading="lazy">
                         </a>
                         <ul class="works__tab_list">
                             <li class="works__tab_item">Web Design</li>
@@ -66,7 +67,7 @@
                     </li>
                     <li class="works__item">
                         <a href="#" class="works__imgwrap">
-                            <img src="assets/images/works_2.jpg" alt="VOID">
+                            <img src="assets/images/works_2.webp" alt="VOID" loading="lazy">
                         </a>
                         <ul class="works__tab_list">
                             <li class="works__tab_item">Web Design</li>
@@ -74,7 +75,7 @@
                     </li>
                     <li class="works__item">
                         <a href="#" class="works__imgwrap">
-                            <img src="assets/images/works_3.jpg" alt="夜更かし絵本店">
+                            <img src="assets/images/works_3.webp" alt="夜更かし絵本店" loading="lazy">
                         </a>
                         <ul class="works__tab_list">
                             <li class="works__tab_item">Web Design</li>
@@ -87,11 +88,11 @@
         <section id="about" class="about">
             <h2 class="top_heading fade-in">About</h2>
             <div class="about__inner fade-in">
-                <img src="assets/images/about_top.png" alt="プロフィールイメージ"  class="about__img">
+                <img src="assets/images/about_top.webp" alt="プロフィールイメージ"  class="about__img" loading="lazy">
                 <div>
                     <div class="about__name">
                         <h3>Kotori Moeko</h3>
-                        <a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram" class="about__snsicon"></a>
+                        <a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram" class="about__snsicon" loading="lazy"></a>
                     </div>
                     <p>大阪在住</p>
                     <p>グラフィックからWebデザイナーへ転職</p>
@@ -115,14 +116,14 @@
                     <li class="footer__item"><a href="#fv">Top</a></li>
                     <li class="footer__item"><a href="#works">Works</a></li>
                     <li class="footer__item"><a href="#about">About</a></li>
-                     <li><a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram"></a></li>
+                     <li><a href="https://www.instagram.com/kotori_mo_d" target="_blank"><img src="assets/images/insta.svg" alt="Instagram" loading="lazy"></a></li>
                     <!--<li class="footer__item"><a href="#">Contact</a></li>-->
                 </ul>
             </nav>
         </div>
         <div class="copyright">&copy;2025 Kotori Moeko. Portfolio</div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
 </body>
 </html>
