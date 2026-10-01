@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夜ふかしの絵本店</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- SlickのCSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> 
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- ローディング画面 -->
+    <div id="loading">
+    <img src="images/opening_anime.gif" alt="Loading..." />
+    </div>
+    <!--ヘッダー-->
+    <header class="header" id="header">
+    <div class="header__inner">
+        <div class="header__logo">
+        <a href="#"><img src="images/logo.svg" alt="夜ふかしの絵本店"></a>
+        </div>
+        <nav class="header__nav" id="nav">
+        <ul class="header__nav-list">
+            <li><a href="#stories">おすすめ絵本</a><span class="header__arrow"></span></li>
+            <li><a href="#about">お店について</a><span class="header__arrow"></span></li>
+            <li><a href="#faq">お店のひみつ</a><span class="header__arrow"></span></li>
+            <li><a href="#access">たどり着くには</a><span class="header__arrow"></span></li>
+        </ul>
+        <a href="#" class="header__contact shake-up">お問い合わせ</a>
+        </nav>
+        <button class="header__hamburger" id="hamburger" aria-label="メニューを開く">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    </header>
+    <!--FV-->
+    <main>
+        <div class="back_gradation">
+        <section class="fv"  id="fv">
+            <div class="fv__inner">
+                <div class="fv__title">
+                    <div class="fv__star1"><img src="images/star1.svg"></div>
+                    <h1>夜のあいだだけ<br>そっとひらく<br>ちいさな絵本店です</h1>
+                    <div class="fv__star2 twinkle"><img src="images/star2.svg"></div>
+                </div>
+                <div class="fv__img"></div>
+            </div>
+        </section>
+    <!--今週のお届け絵本-->
+        <section class="stories" id="stories">
+            <div class="stories__inner">
+                <div class="stories__pickup"><img src="images/pickup.svg" alt=""></div>
+                <h2 class="section-title en">
+                    This Week’s Stories
+                    <span class="section-title__jp">今週のお届け絵本</span>
+                </h2>
+                <!--スライダーが入る-->
+                <ul class="stories__list">
+                    <li class="stories__item">
+                        <a href="#"><img src="images/book1.webp" alt="絵本タイトル"></a>
+                    </li>
+                    <li class="stories__item">
+                        <a href="#"><img src="images/book2.webp" alt="絵本タイトル"></a>
+                    </li>
+                    <li class="stories__item">
+                        <a href="#"><img src="images/book3.webp" alt="絵本タイトル"></a>
+                    </li>
+                    <li class="stories__item">
+                        <a href="#"><img src="images/book4.webp" alt="絵本タイトル"></a>
+                    </li>
+                    <li class="stories__item">
+                        <a href="#"><img src="images/book5.webp" alt="絵本タイトル"></a>
+                    </li>
+                </ul>
+                <div class="stories__line"></div>
+                <a href="#" class="btn stories__btn">おとどけ絵本をもっと見る<span class="btn__arrow"></span></a>
+            </div>
+            <div class="stories__wave">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 73" width="100%" height="73" preserveAspectRatio="none">
+                     <path d="M -1137.6000000000001 50 Q -957.6 50 -777.6 25 Q -417.6 -25 -57.6 25 Q 122.4 50 302.4 50 Q 482.4 50 662.4 25 Q 1022.4 -25 1382.4 25 Q 1562.4 50 1742.4 50 L 1440 73 L 0 73 Z" fill="#9C6CB3"></path>
+                </svg>
+            </div>
+        </section>
+        </div>
+    <!--お店について-->
+        <section class="about" id="about">
+            <div class="about__kumo1 shake-up"><img src="images/kumo1.svg" alt=""></div>
+            <h2 class="section-title en about__title">Story of the Store</h2>
+            <div class="about__inner">
+                    <div class="about__message">
+                        <p class="about__heading">こころに、<br class="sp-br">そっと灯る1冊を。</p>
+                        <p>夜ふかしの絵本店は、<br>夜の街角にだけひらく小さなお店です。</p>
+                        <p>おとなもこどもも、今日一日を終える前に、<br>ほんの少しだけ、自分にやさしくなれるような時間を。<br>わたしたちは、そんな絵本をそっと手渡す<br>“夜の案内人”でありたいと願っています。</p>
+                        <a href="#" class="btn about__btn">夜ふかし絵本店について<span class="btn__arrow"></span></a>
+                    </div>
+                    <div class="about__img">
+                        <img src="images/about_illust.webp" alt="本を持った女の子のイラスト">
+                    </div>
+            </div>
+            <div class="about__kumo2 shake-up"><img src="images/kumo2.svg" alt=""></div>
+            <div class="about__kumo3 shake-up"><img src="images/kumo3.svg" alt=""></div>
+            <div class="about__wave">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 73" width="100%" height="73" preserveAspectRatio="none">
+                     <path d="M -1137.6000000000001 50 Q -957.6 50 -777.6 25 Q -417.6 -25 -57.6 25 Q 122.4 50 302.4 50 Q 482.4 50 662.4 25 Q 1022.4 -25 1382.4 25 Q 1562.4 50 1742.4 50 L 1440 73 L 0 73 Z" fill="#053573"></path>
+                </svg>
+            </div>
+        </section>
+    <!--お店のひみつ-->
+        <section class="faq" id="faq">
+            <div class="faq__inner">
+                <div class="faq__star1"><img src="images/star1.svg" alt=""></div>
+                <h2 class="section-title en">
+                    Secret of the Store
+                    <span class="section-title__jp">お店のひみつ</span>
+                </h2>
+                <div class="faq__star2 twinkle"><img src="images/star2.svg" alt=""></div>
+                <ul>
+                    <li class="faq__item">
+                        <div class="faq__question">
+                            <div class="en faq__question-symbol">Q</div>
+                            <div class="faq__question-text">本当に夜しか開いてないの？</div> 
+                            <span class="faq__toggle"></span>  
+                        </div>
+                        <div class="faq__answer">
+                            <div class="en faq__question-symbol">A</div>
+                            <div class="faq__answer-text">
+                                はい。わたしたちの店の灯りがともるのは、夜9時から深夜0時のあいだだけ。<br>
+                                日が沈み、星が瞬くころに、ふしぎと店の扉も開きます。</div>
+                        </div>
+                    </li>
+                    <li class="faq__item">
+                        <div class="faq__question faq__question--color2">
+                            <div class="en faq__question-symbol">Q</div>
+                            <div class="faq__question-text">どんな本があるの？</div>
+                            <span class="faq__toggle"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <div class="en faq__question-symbol">A</div>
+                            <div class="faq__answer-text">
+                                店主が「今夜、だれかに必要な1冊」を選んで並べています。 <br>
+                                新刊も、古い本も、知られていない宝物のような絵本たちも。</div>
+                        </div>
+                    </li>
+                    <li class="faq__item">
+                        <div class="faq__question">
+                            <div class="en faq__question-symbol">Q</div>
+                            <div class="faq__question-text">
+                                子ども向けですか？大人でも大丈夫？</div>
+                            <span class="faq__toggle"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <div class="en faq__question-symbol">A</div>
+                           <div class="faq__answer-text">むしろ、大人にこそ届けたい絵本が多いかもしれません。 <br>眠る前、静かな気持ちになれるような物語がそろっています。</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    <!--たどり着くには-->
+        <div class="wave-access">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" width="100%">
+            <path d="M -216 43 Q -156 43 -96 21.5 Q 24 -21.5 144 21.5 Q 204 43 264 43 Q 324 43 384 21.5 Q 504 -21.5 624 21.5 Q 684 43 744 43 Q 804 43 864 21.5 Q 984 -21.5 1104 21.5 Q 1164 43 1224 43 Q 1284 43 1344 21.5 Q 1464 -21.5 1584 21.5 Q 1644 43 1704 43 L 1440 60 L 0 60 Z" fill="#dddddd"></path>
+        </svg>
+        </div>
+        <section class="access" id="access">
+            <div class="access__inner">
+                <div class="access__map">
+                    <img src="images/map.webp" alt="夜ふかし絵本店への地図">
+                </div>
+                <div class="access__info">
+                    <p class="access__name">夜ふかしの絵本店</p>
+                    <div class="access__item">
+                        <p class="access__caption">住所</p>
+                        <p class="access__text">〒123-4567　東京都ねむり区ほしぞら町2丁目9番地 <br>（※この住所は架空のものです）</p>
+                    </div>
+                    <div class="access__item">
+                        <p class="access__caption">営業時間</p>
+                        <p class="access__text">夜9時 〜 深夜0時</p>
+                    </div>
+                    <div class="access__item">
+                        <p class="access__caption">定休日</p>
+                        <p class="access__text">雨の日、満月の夜は気まぐれにお休みします</p>
+                    </div>
+                    <div class="access__item">
+                        <p class="access__caption">最寄り駅</p>
+                        <p class="access__text">「ゆめのなか駅」から徒歩3分<br>Googleマップでは探せない場所です</p>
+                    </div>
+                    <a href="#" class="btn access__btn"><img src="images/letter.svg" class="btn__letter" alt="">お問い合わせはこちら<span class="btn__arrow"></span></a>
+                </div>
+            </div>
+        </section>
+        <div class="wave-access2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" width="100%">
+        <path d="M -81.60000000000001 17 Q -21.6 17 38.4 38.5 Q 158.4 81.5 278.4 38.5 Q 338.4 17 398.4 17 Q 458.4 17 518.4 38.5 Q 638.4 81.5 758.4 38.5 Q 818.4 17 878.4 17 Q 938.4 17 998.4 38.5 Q 1118.4 81.5 1238.4 38.5 Q 1298.4 17 1358.4 17 Q 1418.4 17 1478.4 38.5 Q 1598.4 81.5 1718.4 38.5 Q 1778.4 17 1838.4 17 L 1440 0 L 0 0 Z" fill="#dddddd"></path>
+        </svg>
+        </div>
+    </main>
+    <a href="#" class="to-top" aria-label="ページの先頭に戻る"></a>
+    <!--フッター-->
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__wrapper">
+                <a href="#"><div class="footer__logo"><img src="images/logo.svg"></div></a>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#stories">おすすめ絵本</a></li>
+                    <li class="footer__list-item"><a href="#about">お店について</a></li>
+                    <li class="footer__list-item"><a href="#faq">お店のひみつ</a></li>
+                    <li class="footer__list-item"><a href="#access">たどり着くには</a></li>
+                </ul>
+            </div>
+        <a href="#" class="btn footer__btn"><img src="images/letter.svg" class="btn__letter" alt="">絵本について聞いてみる<span class="btn__arrow"></span></a>
+        </div>
+        <div class="footer__copyright">
+            <p>&copy; Kiuchi Morko All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>

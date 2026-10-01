@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARU KOMUTEN（ポートフォリオ用の架空の工務店サイトになります）</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> 
+    <!--CSS-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--favicon-->
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+</head>
+<body>
+    <!-- ローディングアニメーション -->
+    <div id="loading">
+    <img class="loading_logo" src="images/header_logo.webp" alt="Loading...">
+    </div>
+    <!--ヘッダー-->
+    <header class="header">
+        <div class="header_logo"><a href="#"><h1><img src="images/header_logo.webp" alt="HARU KOMUTEN"></h1></a></div>
+        <nav class="header_menu">
+            <ul class="header_nav_pc">
+                <li class="header_nav_text text_link"><a href="#about">HARU KOMUTENとは</a></li>
+                <li class="header_nav_text text_link"><a href="#flow">家づくりの流れ</a></li>
+                <li class="header_nav_text text_link"><a href="#works">施工事例</a></li>
+                <li class="header_nav_text text_link"><a href="#event">イベント情報</a></li>
+                <li class="header_nav_text text_link"><a href="#">アクセス</a></li>
+                <li><a class="header_btn_bg" href="#contact">資料請求</a></li>
+                <li><a class="header_btn_bk" href="#contact">お問合せ</a></li>
+            </ul>
+        </nav>
+        <div class="header_nav_sp">
+            <div class="drawer_open" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav class="drawer_menu" id="drawer_menu">
+            <div class="menu_logo"><a href="#"><img src="images/header_logo.webp" alt="HARU KOMUTEN"></a></div>
+            <ul>
+                <li><a href="#about">HARU KOMUTENとは</a></li>
+                <li><a href="#flow">家づくりの流れ</a></li>
+                <li><a href="#works">施工事例</a></li>
+                <li><a href="#event">イベント情報</a></li>
+                <li><a href="#">アクセス</a></li>
+                <li><a class="sp_nav_btn_bg" href="#contact">資料請求</a></li>
+                <li><a class="sp_nav_btn_bk" href="#contact">お問合せ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="fv_copy">
+            <span class="fv_copy_box">自然素材でつくる工務店</span>
+            <span class="fv_copy_box_2">家族が安心して暮らせる住まいを</span>
+        </h2>    
+        <div class="fv_img_pc">
+            <img src="images/fv.webp" alt="HARU KOMUTENのファーストビュー">
+        </div>
+        <div class="fv_img_sp">
+            <img src="images/fv_sp.webp" alt="HARU KOMUTENのファーストビュー">
+        </div>
+        <!--NEWS　お知らせ-->
+        <section class="news fade-in">
+            <div class="news_title">
+                <h4>NEWS<br><span class="contents_title_jp">お知らせ</span></h4>
+                <div class="pc_news_btn"><a href="#"><div class="news_view_all_btn">VIEW ALL<span class="news_arrow"></span></div></a></div>
+            </div>
+            <ul class="news_list">
+                <li class="news_box">
+                    <a href="#"> 
+                        <div class="news_text">
+                            <p class="news_date">2025.01.05</p>
+                            <p>モデルハウス完成イベント開催のお知らせ</p>
+                        </div>
+                        <div class="news_arrow_2">
+                            <img src="images/arrow_bk.svg" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="news_box">
+                    <a href="#"> 
+                        <div class="news_text">
+                            <p class="news_date">2024.12.22</p>
+                            <p>年末年始休業のお知らせ</p>
+                        </div>
+                        <div class="news_arrow_2">
+                            <img src="images/arrow_bk.svg" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="news_box">
+                    <a href="#"> 
+                        <div class="news_text">
+                            <p class="news_date">2024.12.10</p>
+                            <p>施工事例を追加いたしました</p>
+                        </div>
+                        <div class="news_arrow_2">
+                            <img src="images/arrow_bk.svg" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="sp_news_btn"><a href="#" class="news_view_all_btn">VIEW ALL<span class="news_arrow"></span></a></div>
+        </section>
+        <!--イベント情報-->
+        <section id="event">
+            <h3 class="contents_title fade-in">EVENT<br><span class="contents_title_jp">イベント情報</span></h3>
+            <ul class="event_list fade-in">
+                <li>
+                <div class="event_inner">
+                <a href="#">
+                    <div class="event_img_wrapper">
+                    <img class="event_img" src="images/event_01.webp" loading="lazy" alt="">
+                    </div>
+                    <div class="event_text">
+                    <p class="en">2024.12.9</p>
+                    <p>モデルハウス見学会開催</p>
+                    </div>
+                </a>
+                </div>
+                </li>
+                <li>
+                <div class="event_inner">
+                <a href="#">
+                    <div class="event_img_wrapper">
+                            <img class="event_img"  src="images/event_02.webp" loading="lazy" alt="">
+                            </div>
+                            <div class="event_text">
+                                <p class="en">2024.12.10</p>
+                                <p>雑誌「日本の建築2025ランキング」で紹介されました</p>
+                            </div>
+                        </a>
+                     </div>
+                </li>
+                <li>
+                <div class="event_inner">
+                <a href="#">
+                    <div class="event_img_wrapper">
+                            <img class="event_img"  src="images/event_03.webp" loading="lazy" alt="">
+                            </div>
+                            <div class="event_text">
+                                <p class="en">2024.12.25</p>
+                                <p>1月1日～3日来場者の方にプレゼント</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                <div class="event_inner">
+                <a href="#">
+                    <div class="event_img_wrapper">
+                            <img class="event_img"  src="images/event_04.webp" loading="lazy" alt="">
+                            </div>
+                            <div class="event_text">
+                                <p class="en">2025.2.10</p>
+                                <p>弊社を選ばれた理由のインタビュー記事を掲載いたしました</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="event_btn fade-in">
+                <a href="#" class="view_btn_bg event_btn">
+                    VIEW ALL<span class="btn_arrow"></span>
+                </a>
+            </div>
+        </section>
+        <!--ABOUT-->
+        <section id="about">
+            <div class="about_contents">
+                <img src="images/about_img.webp" class="about_img fade-in left" alt="">
+                <div class="about_text fade-in down">
+                    <h2>私たちは、<br>暮らしをデザインする<br>工務店です。</h2>
+                    <p>家を作るだけではなく、そこで暮らす人々に寄り添ったご提案をできるのが私たちHARU工務店です。お客様ひとりひとりのご要望やご意見を聞きながら、家づくりのお手伝いをいたします。</p>
+                    <a href="#" class="view_btn_bk about_btn">VIEW ALL<span class="btn_arrow_white"></span></a>
+                </div>
+            </div>
+        </section>
+        <!--FLOW　家づくりの流れ-->
+        <section id="flow">
+            <h3 class="contents_title fade-in">FLOW<br><span class="contents_title_jp">家づくりの流れ</span></h3>
+            <div class="flow_contents fade-in right">
+                <ul class="flow_step">
+                    <li class="flow_box">
+                        <div class="flow_triangle"><img src="images/triangle.svg" alt=""></div>
+                        <div class="flow_number"><img src="images/flow_number_1.webp" loading="lazy" alt="1"></div>
+                        <figure class="flow_item">
+                            <div class="flow_img"><img src="images/flow_img_1.webp" alt="ヒアリング"></div>
+                            <figcaption class="flow_text"><h6 class="flow_title">ヒアリング</h6><p>まずはお問合せフォームからご連絡をいただき、直接ご要望などをヒアリングさせていただきます。</p></figcaption>
+                        </figure>
+                    </li>
+                    <li class="flow_box">
+                        <div class="flow_triangle"><img src="images/triangle.svg" loading="lazy" alt=""></div>
+                        <div class="flow_number"><img src="images/flow_number_2.webp" loading="lazy" alt="2"></div>
+                        <figure class="flow_item">
+                            <div class="flow_img"><img src="images/flow_img_2.webp" loading="lazy" alt="土地の選定"></div>
+                            <figcaption class="flow_text"><h6 class="flow_title">土地の選定</h6><p>住宅の依頼先が決まった後は土地を選びます。希望にマッチする土地を探しましょう。</p></figcaption>
+                        </figure>
+                    </li>
+                    <li class="flow_box">
+                        <div class="flow_triangle"><img src="images/triangle.svg" loading="lazy" alt=""></div>
+                        <div class="flow_number"><img src="images/flow_number_3.webp" loading="lazy" alt="3"></div>
+                        <figure class="flow_item">
+                            <div class="flow_img"><img src="images/flow_img_3.webp" alt="建物プランニング・お見積り"></div>
+                            <figcaption class="flow_text"><h6 class="flow_title">プランニング・見積り</h6><p>選定した土地の状況を考慮しながら、建物プランを設計します。ご希望に合うように何度も修正します。</p></figcaption>
+                        </figure>
+                    </li>
+                    <li class="flow_box">
+                        <div class="flow_triangle"><img src="images/triangle.svg" loading="lazy" alt=""></div>
+                        <div class="flow_number"><img src="images/flow_number_4.webp" loading="lazy" alt="4"></div>
+                        <figure class="flow_item">
+                            <div class="flow_img"><img src="images/flow_img_4.webp" loading="lazy" alt="間取りなど詳細お打ち合せ"></div>
+                            <figcaption class="flow_text"><h6 class="flow_title">間取りお打ち合せ</h6><p>依頼先と具体的な間取り・設備の打ち合わせをして、設計図や設計プラン、建築プランを作成します。</p></figcaption>
+                        </figure>
+                    </li>
+                    <li class="flow_box">
+                        <div class="flow_triangle"><img src="images/triangle.svg" loading="lazy" alt=""></div>
+                        <div class="flow_number"><img src="images/flow_number_5.webp" loading="lazy" alt="5"></div>
+                        <figure class="flow_item">
+                            <div class="flow_img"><img src="images/flow_img_5.webp" loading="lazy" alt="着工"></div>
+                            <figcaption class="flow_text"><h6 class="flow_title">着工</h6><p>全部の打ち合わせ・手続きを終了したら、ついに着工です。</p></figcaption>
+                        </figure>
+                    </li>
+                    <li class="flow_box">
+                        <div class="flow_number"><img src="images/flow_number_6.webp" loading="lazy" alt="6"></div>
+                        <figure class="flow_item">
+                            <div class="flow_img"><img src="images/flow_img_6.webp" loading="lazy" alt="入居"></div>
+                            <figcaption class="flow_text"><h6 class="flow_title">完成・入居</h6><p>住宅の引き渡しを経て、入居ができるようになります。</p></figcaption>
+                        </figure>
+                    </li>
+                </ul>
+                <div class="flow_arrows"></div> 
+                </div>
+        </section>
+        <!--施工事例-->
+        <section id="works">
+            <div class="works_title">
+                <h3 class="contents_title fade-in">WORKS<br><span class="contents_title_jp">施工事例</span></h3>
+                <a href="#" class="view_btn_bg works_btn fade-in">
+                  VIEW ALL
+                  <div class="btn_arrow"></div>
+                </a>
+              </div>
+            <ul>
+                <li class="works_box">
+                    <a href="#">
+                    <div class="works_flex">
+                        <div class="works_img_wrapper">
+                            <div class="works_img fade-in down"><img src="images/works_25.webp" loading="lazy" alt="木のぬくもりを感じる家"></div>
+                        </div>                
+                        <div class="works_text_box fade-in right">
+                            <h5 class="case_number">CASE.25</h5>
+                            <h4>木のぬくもりを感じる家</h4>
+                            <p>自然素材の温もりを大切にした住まいです。床や壁には無垢材を使用し、家族が季節の移ろいを感じながら快適に過ごせる工夫を随所に取り入れました。明るいリビングと開放感のある空間が魅力の一邸です。</p>
+                            <div class="arrow_btn"><div class="circle_btn">
+                                <span class="c_arrow first"></span><span class="c_arrow second"></span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+                <li class="works_box">
+                    <a href="#">
+                    <div class="works_flex">
+                        <div class="works_img_wrapper">
+                        <div class="works_img fade-in down"><img src="images/works_24.webp" loading="lazy" alt="家族が庭で集まる邸宅"></div>
+                        </div>
+                        <div class="works_text_box fade-in right">
+                            <h5 class="case_number">CASE.24</h5>
+                            <h4>柔らかい光が降り注ぐダイニング</h4>
+                            <p>大きな窓から陽の光が優しく降り注ぐ広々としたダイニングで、家族も自然に集まり笑顔がこぼれる邸宅です。開放的な印象で、家全体が明るい素敵なお住まいになりました。</p>
+                            <div class="arrow_btn"><div class="circle_btn">
+                                <span class="c_arrow first"></span><span class="c_arrow second"></span>
+                            </div>
+                        </div>                        </div>
+                    </div>
+                    </a>
+                </li>
+                <li class="works_box">
+                    <a href="#">
+                    <div class="works_flex">
+                        <div class="works_img_wrapper">
+                             <div class="works_img fade-in down"><img src="images/works_23.webp" loading="lazy" alt="洗練されたインテリアと間取り"></div>
+                        </div>
+                        <div class="works_text_box fade-in right">
+                            <h5 class="case_number">CASE.23</h5>
+                            <h4>洗練されたインテリアと間取り</h4>
+                            <p>白を基調にしたシンプルなインテリアと、機能的かつ美しい動線を意識した間取りが特徴的な住まいです。プライベートとパブリック空間を分けることで、毎日を心地よく過ごせる空間を実現しました。</p>
+                            <div class="arrow_btn"><div class="circle_btn">
+                                <span class="c_arrow first"></span><span class="c_arrow second"></span>
+                            </div>
+                        </div>                        </div>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h3 class="contents_title fade-in">CONTACT</h3>
+            <p class="contact_text fade-in">お問い合わせはこちらからどうぞ</p>
+            <div class="contact_btn_box fade-in up">
+                <a href="#" class="contact_btn">資料請求<span class="btn_arrow"></span></a>
+                <a href="#" class="contact_btn">お問合せ<span class="btn_arrow"></span></a>
+            </div>
+        </section>
+    </main>
+    <!--フッター-->
+    <footer class="footer">
+        <div class="footer_contents">
+            <div class="footer_logo_box ">
+                <div class="footer_logo fade-in left"><a href="#"><img src="images/footer_logo.webp" loading="lazy" alt="HARU KOMUTEN"></a></div>
+                <ul class="sns fade-in right">
+                    <li><a href="#"><img src="images/sns_icon1.webp" class="sns_icon" loading="lazy" alt="インスタグラム"></a></li>
+                    <li><a href="#"><img src="images/sns_icon2.webp" class="sns_icon" loading="lazy" alt="LINE"></a></li>
+                    <li><a href="#"><img src="images/sns_icon3.webp" class="sns_icon" loading="lazy" alt="X"></a></li>
+                    <li><a href="#"><img src="images/sns_icon4.webp" class="sns_icon" loading="lazy" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/sns_icon5.webp" class="sns_icon" loading="lazy" alt="Youtube"></a></li>
+                </ul>
+            </div>
+            <div class="footer_nav">
+                <ul class="footer_menu">
+                    <li><a href="#" class="text_link">HARU KOMUTENとは</a></li>
+                    <li><a href="#" class="text_link">家づくりの流れ</a></li>
+                    <li><a href="#" class="text_link">施工事例</a></li>
+                    <li><a href="#" class="text_link">イベント情報</a></li>
+                    <li><a href="#" class="text_link">アクセス</a></li>
+                </ul>
+                <div class="footer_nav_btn">
+                    <a href="#" class="footer_btn">資料請求</a>
+                    <a href="#"  class="footer_btn">お問合せ</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>	&copy;Kiuchi Moeko All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

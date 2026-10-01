@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ------------------------
   Variables
 -------------------------*/
@@ -45,7 +46,6 @@ a:hover {
   border-bottom: 1px solid #6D6D6D;
   padding: 15px 5px;
   gap: 20px;
-  width: -moz-fit-content;
   width: fit-content;
   margin: 15px auto;
 }
@@ -304,6 +304,9 @@ a:hover {
   margin: 0 auto;
   text-align: center;
 }
+.works__inner--workstop {
+  padding-bottom: 0;
+}
 .works__list {
   display: flex;
   flex-flow: column;
@@ -385,7 +388,6 @@ a:hover {
   font-family: "Outfit", sans-serif;
   color: #9E9E9E;
   padding: 3px 12px;
-  width: -moz-fit-content;
   width: fit-content;
   border-radius: 100vh;
 }
@@ -425,6 +427,37 @@ a:hover {
 @media (min-width: 768px) {
   .works__other p span {
     display: inline;
+  }
+}
+.works {
+  /* Workssページ */
+}
+.works__heading {
+  font-family: "Outfit", sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  letter-spacing: 0.03em;
+}
+@media (min-width: 768px) {
+  .works__heading {
+    font-size: 50px;
+  }
+}
+.works__category {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 0.03em;
+}
+@media (min-width: 768px) {
+  .works__category {
+    font-size: 26px;
+    margin-top: 100px;
+    margin-bottom: 40px;
   }
 }
 
@@ -618,4 +651,298 @@ a:hover {
   font-weight: 200;
   margin: 40px 20px 15px;
   letter-spacing: 0.05rem;
-}/*# sourceMappingURL=common.css.map */
+}
+
+/*Woks 詳細ページ*/
+/* ------------------------
+  Work Detail
+-------------------------*/
+.work-detail {
+  margin-top: 80px;
+  padding: 60px 20px;
+  background: #F5F5F5;
+  border-radius: 50px;
+}
+@media (min-width: 768px) {
+  .work-detail {
+    margin-top: 120px;
+    padding: 120px 60px 140px;
+  }
+}
+.work-detail__inner {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .work-detail__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(320px, 0.85fr);
+    gap: 85px;
+    align-items: start;
+  }
+}
+.work-detail {
+  /* ------------------------
+    PC image
+  -------------------------*/
+}
+.work-detail__visual {
+  width: 100%;
+  order: 2;
+  margin-top: 60px;
+}
+@media (min-width: 768px) {
+  .work-detail__visual {
+    order: initial;
+    margin-top: 0;
+  }
+}
+.work-detail__pc {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.work-detail {
+  /* ------------------------
+    Content
+  -------------------------*/
+}
+.work-detail__content {
+  width: 100%;
+  order: 1;
+}
+@media (min-width: 768px) {
+  .work-detail__content {
+    order: initial;
+  }
+}
+.work-detail__header {
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .work-detail__header {
+    margin-bottom: 90px;
+  }
+}
+.work-detail__title {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  max-width: 350px;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+@media (min-width: 768px) {
+  .work-detail__title {
+    font-size: 72px;
+  }
+}
+.work-detail__subtitle {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+}
+@media (min-width: 768px) {
+  .work-detail__subtitle {
+    margin-top: 18px;
+  }
+}
+.work-detail__illust {
+  max-width: 400px;
+  margin-top: 30px;
+}
+.work-detail {
+  /* ------------------------
+    Test Site
+  -------------------------*/
+}
+.work-detail__site {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 20px;
+  padding: 18px 16px;
+  border: 1px solid #999;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  transition: opacity 0.3s ease;
+}
+.work-detail__site:hover {
+  opacity: 0.6;
+}
+@media (min-width: 768px) {
+  .work-detail__site {
+    margin-top: 34px;
+  }
+}
+.work-detail {
+  /* ------------------------
+    Info
+  -------------------------*/
+}
+.work-detail__info {
+  width: 100%;
+}
+.work-detail__block {
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .work-detail__block {
+    margin-bottom: 50px;
+  }
+}
+.work-detail__block:last-child {
+  margin-bottom: 0;
+}
+.work-detail__heading {
+  margin: 0 0 14px;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+.work-detail__text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.work-detail {
+  /* ------------------------
+    Color
+  -------------------------*/
+}
+.work-detail__color-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+.work-detail__color {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.work-detail__color--01 {
+  background: #111;
+}
+.work-detail__color--02 {
+  background: #F8F8F8;
+  border: 1px solid #BBB;
+}
+.work-detail__color--03 {
+  background: #1A1A1A;
+}
+.work-detail__color--04 {
+  background: #F8F8F8;
+  border: 1px solid #BBB;
+}
+.work-detail__color--05 {
+  background: #D3CAA9;
+}
+.work-detail__color--06 {
+  background: #3B392D;
+}
+.work-detail__color--07 {
+  background: #053573;
+}
+.work-detail__color--08 {
+  background: #9C6CB3;
+}
+.work-detail__color--09 {
+  background: #D5B811;
+}
+.work-detail {
+  /* ------------------------
+    Concept
+  -------------------------*/
+}
+.work-detail__concept {
+  margin: 0;
+  font-size: 13px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+
+/* ------------------------
+  work-nav
+-------------------------*/
+.work-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 45px auto 120px;
+  padding: 0 20px;
+}
+.work-nav--workstop {
+  margin: 40px auto 0;
+}
+@media (min-width: 768px) {
+  .work-nav--workstop {
+    margin: 80px auto 0;
+  }
+}
+
+/* ------------------------
+  Work Back
+-------------------------*/
+.work-back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 115px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #999;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  transition: opacity 0.3s ease;
+}
+.work-back:hover {
+  opacity: 0.6;
+}
+.work-back__arrow {
+  font-size: 14px;
+  line-height: 1;
+}
+.work-back__text {
+  line-height: 1;
+}
+
+/* ------------------------
+  Work Next
+-------------------------*/
+.work-next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 115px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #999;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  transition: opacity 0.3s ease;
+}
+.work-next:hover {
+  opacity: 0.6;
+}
+.work-next__arrow {
+  font-size: 14spx;
+  line-height: 1;
+}
+.work-next__text {
+  line-height: 1;
+}
