@@ -171,16 +171,6 @@ a:hover {
     padding-left: 4.5vw;
   }
 }
-.fv__title h2 {
-  font-size: 5vw;
-  font-weight: 400;
-  letter-spacing: 0.05rem;
-}
-@media (min-width: 768px) {
-  .fv__title h2 {
-    font-size: 2.5vw;
-  }
-}
 .fv__title h1 {
   font-size: 11vw;
   font-weight: 200;
@@ -199,15 +189,25 @@ a:hover {
 .fv__title h1 strong {
   font-weight: 400;
 }
-.fv__title p {
+.fv__title > p:not(.fv__job) {
   font-size: 13px;
   letter-spacing: 0.2rem;
   padding-top: 50px;
 }
 @media (min-width: 768px) {
-  .fv__title p {
+  .fv__title > p:not(.fv__job) {
     font-size: 16px;
     padding-top: 20px;
+  }
+}
+.fv__job {
+  font-size: 5vw;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+}
+@media (min-width: 768px) {
+  .fv__job {
+    font-size: 2vw;
   }
 }
 
